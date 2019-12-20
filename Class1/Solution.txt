@@ -1,0 +1,50 @@
+A.
+
+first = 7
+second = 44.3
+
+print(first+second)
+print(first*second)
+print(second/first)
+
+**********************
+B. 
+
+a = 9
+b = 8
+c = 15
+
+**********************
+C.
+
+No, in python a word can be marked with both one/double quote
+
+**********************
+
+D.
+
+7
+
+**********************
+
+E.
+x = 5
+y = 6
+
+if x > y:
+    print("big")
+else:
+    print("small")
+
+**********************
+
+F.
+season = 1
+if season == 1:
+    print("summer")
+elif season ==2:
+    print("winter")
+elif season ==3:
+    print("fall")
+elif season == 4:
+    print("spring")

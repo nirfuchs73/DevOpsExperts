@@ -1,0 +1,46 @@
+# 1 + 2
+if __name__ == '__main__':
+    try:
+        a = 1 / 0
+    except:
+        print("Division by zero")
+
+    # 3
+    # Yes, try can come with except & finally / finally
+
+
+#4
+# Except handles all types of exceptions
+
+# 5
+# This type of exception handler is a "Bad Practice" because it will give partial information and can show
+
+# 6
+# Except IOError - handles I/O (input/output) exceptions
+# Except ZeroDivisionError - handles divison by zero
+
+
+# 7:
+my_file = open("c:/temp/daniel.txt",'w')
+my_file.close()
+
+# 8
+my_file = open("c:/temp/daniel.txt",'w')
+my_file.write("daniel")
+my_file.close()
+
+# 9
+my_file = open("c:/temp/daniel.txt",'r')
+str = my_file.read()
+print(str)
+my_file.close()
+
+# 10
+my_file2 = open("c:/temp/hebrew.txt",'w',encoding='utf-8')
+my_file2.write("ωμεν")
+my_file2.close()
+
+my_file2 = open("c:/temp/hebrew.txt",'r',encoding='utf-8')
+str = my_file2.read()
+print(str)
+

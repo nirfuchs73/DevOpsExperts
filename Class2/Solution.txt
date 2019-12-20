@@ -1,0 +1,76 @@
+#A
+x = 5
+y = 6
+
+if x > y:
+    print("big")
+else:
+    print("small")
+
+#B
+for x in range(5):
+    print(x)
+
+
+#C
+season = 1
+if season == 1:
+    print("summer")
+elif season ==2:
+    print("winter")
+elif season ==3:
+    print("fall")
+elif season == 4:
+    print("spring")
+
+
+#D - Answer is =10
+
+#E
+age = 25
+letter = "g"
+currency = 3.52
+flew = True
+apartment_number = 20
+
+print(age)
+print(letter)
+print(currency)
+print(flew)
+print(apartment_number)
+print(currency+age)
+
+#F
+
+number = input("Enter your phone number: ")
+print("Phone number", number)
+
+
+#G
+def printHello():
+    print("hello")
+
+def calculate():
+    print(5+3.2)
+
+#H
+def print_name(name):
+    print(name)
+
+def divide_number(num):
+    print(num/2)
+
+#I
+def return_sum(x,y):
+    return x+y
+
+def add_space(word_a, word_b):
+    return word_a + " " + word_b
+
+#J
+import array as arr
+if __name__ == "__main__":
+    a = arr.array("i",[3,6,9])
+    for temp_num in a:
+        print(temp_num)
+
